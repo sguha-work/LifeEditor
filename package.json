@@ -1,0 +1,23 @@
+{
+  "name": "lifeeditor",
+  "version": "1.0.0",
+  "description": "Online rich text editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch LifeEditor/style/scss -o LifeEditor/style/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sguha-work/LifeEditor.git"
+  },
+  "author": "Sahasrangshu Guha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sguha-work/LifeEditor/issues"
+  },
+  "homepage": "https://github.com/sguha-work/LifeEditor#readme",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  }
+}

@@ -8,13 +8,13 @@ class LifeEditorMain {
     private getLETemplate() {
         return `
             <div class="LifeEditor_title">
-                
+                Welcome to LifeEditor
             </div>
             <div class="LifeEditor_menu">
                 
             </div>
             <div class="LifeEditor_body">
-                
+                <div class="LifeEditor_textArea" contenteditable="true"></div>
             </div>
             <div class="LifeEditor_footer">
                 

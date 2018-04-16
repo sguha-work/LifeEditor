@@ -1,0 +1,26 @@
+.LifeEditor {
+    .LifeEditor_title {
+        width: 100%;
+        height: 5%;
+        background-color: gray;
+        color: black;
+        text-align: center;
+    }
+    .LifeEditor_menu {
+        width: 100%;
+        height: 10%;
+        background-color: rgb(224, 131, 131);
+    }
+    .LifeEditor_body {
+        height: 80%;
+        .LifeEditor_textArea {
+            height: 97%;
+            background-color: rgb(231, 154, 154);
+            padding: 5px 5px 5px 5px;
+        }
+    }
+    .LifeEditor_footer {
+        height: 5%;
+        background-color: black;
+    }
+}
